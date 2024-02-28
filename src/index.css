@@ -127,8 +127,14 @@ body {
   .container {
     width: 320px;
   }
+
   .inputTask {
-    padding: 5px;
+    padding: 5px 0;
     font-size: 20px;
+  }
+
+  .inputTask input {
+    width: 180px;
+    padding: 3px;
   }
 }
