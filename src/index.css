@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Monoton:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #5b5b9f;
+
+}
+
+.container {
+  width: 400px;
+  background: #282851;
+  padding: 1rem;
+  margin: 5rem auto;
+  border-radius: 5px;
+}
+
+.container h2 {
+  font-family: 'Monoton';
+  color: rgb(161, 160, 160);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  word-spacing: 3px;
+  letter-spacing: 5px;
+  padding: 2.4rem 0;
+  text-align: center;
+}
+
+.inputTask {
+  width: 100%;
+  padding: 5px 1rem;
+  background: #3e3e5a;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputTask input {
+  background: transparent;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.inputTask input::placeholder {
+  color: rgb(161, 160, 160);
+}
+
+.inputTask button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 35px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inputTask button:hover {
+  background-color: #282851;
+  color: #fff;
+}
+
+.Lists {
+  margin: 20px 0;
+}
+
+.Lists span {
+  color: rgb(161, 160, 160);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Lists ul {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.Lists ul li {
+  color: #fff;
+  margin: 5px;
+  word-wrap: break-word;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5b5b9f;
+}
+
+.Lists ul li p.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.Lists ul li input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.Lists ul li p {
+  max-width: 100%;
+}
+
+.Lists ul li i {
+  cursor: pointer;
+}
