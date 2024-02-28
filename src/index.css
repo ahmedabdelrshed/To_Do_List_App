@@ -127,4 +127,8 @@ body {
   .container {
     width: 320px;
   }
+  .inputTask {
+    padding: 5px;
+    font-size: 20px;
+  }
 }
