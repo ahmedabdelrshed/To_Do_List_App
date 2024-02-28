@@ -122,3 +122,9 @@ body {
 .Lists ul li i {
   cursor: pointer;
 }
+
+@media(max-width:767px) {
+  .container {
+    width: 320px;
+  }
+}
